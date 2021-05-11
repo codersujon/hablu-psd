@@ -5,22 +5,33 @@
     right: 0;
     z-index: 100;
     & .header-top{
-        padding: 10px 0;
-        & .navbar-brand {
-            color: $white;
-            font-size: 25px;
-            text-transform: uppercase;
-            font-weight: 400;
-            letter-spacing: 1px;
+        & .navbar{
+            & .navbar-brand {
+                color: $white;
+                font-size: 25px;
+                text-transform: uppercase;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+           & .navbar-nav{
+               & li{
+                    margin-left: 30px;
+                    padding: 15px 0;
+                    &:hover{
+                        & a{
+                            color: $theme-color;
+                        }
+                    }
+                   & a{
+                        color: $white; 
+                        text-transform: uppercase;
+                        transition: .3s ease-out;
+                   }
+               }
+           }
         }
     }
 }
-
-
-
-
-
-
 
 
 //btn
