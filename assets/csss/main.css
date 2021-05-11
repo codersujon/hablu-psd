@@ -1614,9 +1614,7 @@ label {
   display: block;
 }
 .section-title h2 {
-  font-size: 35px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+  font-size: 25px;
 }
 
 .header-transparent {

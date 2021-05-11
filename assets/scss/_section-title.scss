@@ -1,0 +1,15 @@
+// SECTION TITLE
+.section-title{
+    & span{
+        font-size: 18px;
+        font-weight: 300;
+        font-style: italic;
+        margin-bottom: 5px;
+        display: block;
+    }
+    & h2{
+        font-size: 35px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+}
