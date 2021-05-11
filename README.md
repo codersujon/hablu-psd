@@ -1,6 +1,6 @@
 # Hablu- PSD Template
 
-# Features
+⇒ Features
 1. Creative Sections
 2. CSS3 Hover Effects
 3. Proper Coding
@@ -10,6 +10,5 @@
 7. Font Awesome Icons
 8. SASS
 9. And More
-
 
 site is ready to be Lived at https://positiveworldbd.github.io/hablu-psd/
