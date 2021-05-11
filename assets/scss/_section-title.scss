@@ -11,5 +11,17 @@
         font-size: 35px;
         text-transform: uppercase;
         margin-bottom: 20px;
+        padding: 10px;
+        position: relative;
+        &:before{
+            position: absolute;
+            content: '';
+            width: 59px;
+            height: 2px;
+            background: $theme-color;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }
 }

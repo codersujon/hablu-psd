@@ -174,19 +174,19 @@ label {
 }
 
 *::-moz-selection {
-  background: #222;
+  background: #333;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #222;
+  background: #333;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #222;
+  background: #333;
   color: #ffffff;
   text-shadow: none;
 }
@@ -195,13 +195,13 @@ label {
     - Input Placeholder
 -----------------------------------------*/
 *::-moz-placeholder {
-  color: #222;
+  color: #333;
   font-size: 14px;
   opacity: 1;
 }
 
 *::placeholder {
-  color: #222;
+  color: #333;
   font-size: 14px;
   opacity: 1;
 }
@@ -229,7 +229,7 @@ label {
 }
 
 .black-bg {
-  background: #222;
+  background: #333;
 }
 
 .theme-bg {
@@ -244,7 +244,7 @@ label {
 }
 
 .black-color {
-  color: #222;
+  color: #333;
 }
 
 .theme-color {
@@ -1566,7 +1566,7 @@ label {
 }
 
 [data-overlay=dark]::before {
-  background-color: #222;
+  background-color: #333;
 }
 
 /*-- Overlay Opacity --*/
@@ -1617,6 +1617,18 @@ label {
   font-size: 35px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  padding: 10px;
+  position: relative;
+}
+.section-title h2:before {
+  position: absolute;
+  content: "";
+  width: 59px;
+  height: 2px;
+  background: #e16038;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header-transparent {
@@ -1650,7 +1662,7 @@ label {
   background-color: #e16038;
   color: #ffffff;
   display: inline-block;
-  padding: 15px 30px;
+  padding: 10px 30px;
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: 500;
@@ -1724,6 +1736,32 @@ label {
   color: #ffffff;
   margin-bottom: 40px;
   font-size: 17px;
+}
+
+.about-area .habout__content h3, .about-area .habout__content ul {
+  margin-bottom: 25px;
+}
+.about-area .habout__content h3 li, .about-area .habout__content ul li {
+  line-height: 2;
+}
+.about-area .habout__img {
+  position: relative;
+}
+.about-area .habout__img:after {
+  position: absolute;
+  content: "";
+  background: #e16038;
+  width: 100%;
+  height: 100%;
+  right: -15px;
+  bottom: -15px;
+  z-index: -1;
+}
+.about-area .ability__single-btn a {
+  color: #e16038;
+}
+.about-area .ability__single-btn a i {
+  margin-left: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */
