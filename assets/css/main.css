@@ -1,10 +1,10 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Sample - Corporate Business Bootstrap4 HTML5 Template
-    Template URI: site.com
-    Description: Sample - Corporate Business Bootstrap4 HTML5 Template
-    Author: BasicTheme
-    Author URI: site.com
+    Template Name: Hablu - Multipurpose Agency Template
+    Template URI: https://positiveworldbd.github.io/hablu-psd/
+    Description: Hablu - Multipurpose Agency Template
+    Author: PositiveWorld
+    Author URI: www.positiveworld.com.bd
     Version: 1.0
 
 -----------------------------------------------------------------------------------
@@ -22,12 +22,13 @@
 /*  01. Theme default CSS
 /*----------------------------------------*/
 /* 1. Theme default css */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #899399;
+  color: #333;
+  font-size: 16px;
 }
 
 .img, img {
@@ -49,6 +50,10 @@ body {
 
 .fix {
   overflow: hidden;
+}
+
+a {
+  text-decoration: none;
 }
 
 a,
@@ -150,7 +155,7 @@ p {
   font-size: 14px;
   font-weight: normal;
   line-height: 26px;
-  color: #899399;
+  color: #333;
   margin-bottom: 15px;
 }
 
@@ -228,7 +233,7 @@ label {
 }
 
 .theme-bg {
-  background: #ec6e39;
+  background: #e16038;
 }
 
 /*--
@@ -243,7 +248,7 @@ label {
 }
 
 .theme-color {
-  color: #ec6e39;
+  color: #e16038;
 }
 
 /*--
@@ -1606,23 +1611,69 @@ label {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 
-.header-social a {
-  color: #899399;
-  font-size: 16px;
-  margin-right: 15px;
+.h-btn {
+  background-color: #e16038;
+  color: #ffffff;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border: 2px solid transparent;
+  transition: 0.3s ease-out;
+  border-radius: 5px;
+}
+.h-btn:hover {
+  background: transparent;
+  border-color: #e16038;
+  color: #ffffff;
 }
 
-.user-login a {
-  font-size: 12px;
+.btn-border {
+  background: transparent;
+  border-color: #e16038;
+}
+.btn-border:hover {
+  background-color: #e16038;
+  border-color: #e16038;
+  color: #ffffff;
+}
+
+.single-slide {
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+}
+.single-slide:before {
+  content: "";
+  position: absolute;
+  background: #333;
+  height: 1000px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.hslide__text span {
+  font-size: 20px;
+  display: block;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.hslide__text h2 {
+  font-size: 50px;
   text-transform: uppercase;
-  font-weight: 700;
-  color: #899399;
-  text-decoration: none;
+  color: #ffffff;
+  margin: 20px 0;
+  line-height: 1.3;
 }
-.user-login a i {
-  margin-right: 5px;
+.hslide__text p {
+  color: #ffffff;
+  margin-bottom: 40px;
+  font-size: 17px;
 }
 
 /*# sourceMappingURL=main.css.map */
