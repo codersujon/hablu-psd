@@ -1613,6 +1613,16 @@ label {
   right: 0;
   z-index: 100;
 }
+.header-transparent .header-top {
+  padding: 10px 0;
+}
+.header-transparent .header-top .navbar-brand {
+  color: #ffffff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
 
 .h-btn {
   background-color: #e16038;
