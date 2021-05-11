@@ -13,8 +13,9 @@ $(function ($){
         autoplay: true,
         autoplayHoverPause: true,
         autoplaySpeed: 1000,
+        dots: true,
         loop: true,
-        nav:true,
+        nav:false,
         responsive:{
             0:{
                 items:1
