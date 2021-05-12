@@ -49,12 +49,13 @@
     &:hover{
         background: transparent;
         border-color: $theme-color; 
-        color: $white;
+        color: $theme-color;
     }
 }
 .btn-border{
     background: transparent;
     border-color: $theme-color;
+    color: $theme-color;
     &:hover{
         background-color: $theme-color; 
         border-color: $theme-color; 

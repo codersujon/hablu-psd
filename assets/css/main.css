@@ -1673,12 +1673,13 @@ label {
 .h-btn:hover {
   background: transparent;
   border-color: #e16038;
-  color: #ffffff;
+  color: #e16038;
 }
 
 .btn-border {
   background: transparent;
   border-color: #e16038;
+  color: #e16038;
 }
 .btn-border:hover {
   background-color: #e16038;
