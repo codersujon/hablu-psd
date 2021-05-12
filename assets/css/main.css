@@ -1611,21 +1611,21 @@ label {
   opacity: 0.9;
 }
 
-.section-title span {
+.section-title span, .section-title-white span {
   font-size: 18px;
   font-weight: 300;
   font-style: italic;
   margin-bottom: 5px;
   display: block;
 }
-.section-title h2 {
+.section-title h2, .section-title-white h2 {
   font-size: 35px;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding: 10px;
   position: relative;
 }
-.section-title h2:before {
+.section-title h2:before, .section-title-white h2:before {
   position: absolute;
   content: "";
   width: 59px;
@@ -1634,6 +1634,12 @@ label {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.section-title-white span,
+.section-title-white h2,
+.section-title-white p {
+  color: #ffffff;
 }
 
 .header-transparent {
@@ -1851,6 +1857,47 @@ label {
   font-size: 22px;
   text-transform: capitalize;
   margin-bottom: 10px;
+}
+
+.process-area {
+  color: #ffffff;
+  position: relative;
+  background-size: cover;
+  height: 100%;
+}
+.process-area::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  background: #333;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.single-process h3,
+.single-process p {
+  color: #ffffff;
+}
+.single-process h3 {
+  font-size: 22px;
+  background: #e16038;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  position: relative;
+}
+.single-process h3 span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  background-color: #cb5920;
+  border-radius: 5px;
+}
+.single-process p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

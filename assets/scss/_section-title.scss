@@ -1,5 +1,5 @@
 // SECTION TITLE
-.section-title {
+.section-title, .section-title-white {
     & span {
         font-size: 18px;
         font-weight: 300;
@@ -25,5 +25,12 @@
             left: 50%;
             transform: translateX(-50%);
         }
+    }
+}
+.section-title-white {
+    & span,
+    h2,
+    p {
+       color: $white;
     }
 }
