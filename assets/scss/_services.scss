@@ -1,0 +1,34 @@
+.services-area {
+    & .services {
+        &__single {
+            -webkit-box-shadow: 1px -1px 11px -7px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 1px -1px 11px -7px rgba(0, 0, 0, 0.75);
+            box-shadow: 1px -1px 11px -7px rgba(0, 0, 0, 0.75);
+            padding: 40px;
+            transition: .3s;
+
+            &:hover {
+                background-color: $theme-color;
+
+                & i,
+                h3,
+                p {
+                    color: $white;
+                    cursor: pointer;
+                }
+            }
+
+            & i {
+                font-size: 40px;
+                margin-bottom: 20px;
+            }
+
+            & h3 {
+                font-size: 22px;
+                text-transform: capitalize;
+                margin-bottom: 10px;
+            }
+
+        }
+    }
+}

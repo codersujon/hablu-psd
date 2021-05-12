@@ -1,21 +1,24 @@
 //ABOUT START
-.about-area{
-    & .habout{
-        &__content{
-            & h3, ul{
+.about-area {
+    & .habout {
+        &__content {
+
+            & h3,
+            ul {
                 margin-bottom: 25px;
-                & li{
+
+                & li {
                     line-height: 2;
                 }
             }
-            &-btn{
-                
-            }
+
         }
-        &__img{
+
+        &__img {
             //Image before after Background Design
             position: relative;
-            &:after{
+
+            &:after {
                 position: absolute;
                 content: '';
                 background: $theme-color;
@@ -27,15 +30,17 @@
             }
         }
     }
-    & .ability{
-        &__single{
-            &-btn{
-              & a{
-                  color: $theme-color;
-                & i{
-                    margin-left: 5px;
+
+    & .ability {
+        &__single {
+            &-btn {
+                & a {
+                    color: $theme-color;
+
+                    & i {
+                        margin-left: 5px;
+                    }
                 }
-              }  
             }
         }
     }

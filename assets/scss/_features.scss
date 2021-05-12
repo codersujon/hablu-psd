@@ -1,14 +1,16 @@
 //FEATURES START
-.features-area{
+.features-area {
     background-color: #f9f9f9;
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
 }
 
-.feature-1, .feature-2{
+.feature-1,
+.feature-2 {
     position: relative;
-    &::after{
+
+    &::after {
         position: absolute;
         content: "";
         background: url(../img/feature-1.jpg);
@@ -19,7 +21,8 @@
         top: 0;
         right: 0;
     }
-    &::before{
+
+    &::before {
         position: absolute;
         content: '';
         background: #333;
@@ -32,14 +35,15 @@
     }
 }
 
-.feature-2{
-    &::after{
+.feature-2 {
+    &::after {
         background: url(../img/feature-2.jpg);
         background-size: cover;
         background-position: center;
         left: 0;
     }
-    &::before{
+
+    &::before {
         left: 0;
     }
 }
@@ -50,17 +54,17 @@
 
 
 
-.single-feature{
-    & i{
+.single-feature {
+    & i {
         font-size: 25px;
         margin-bottom: 20px;
     }
-    & h3{
+
+    & h3 {
         font-size: 22px;
         margin-bottom: 15px;
         text-transform: capitalize;
     }
-    & p{
 
-    }
+    & p {}
 }

@@ -31,7 +31,8 @@ body {
   font-size: 16px;
 }
 
-.img, img {
+.img,
+img {
   max-width: 100%;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -83,7 +84,11 @@ button {
   outline: medium none;
 }
 
-button:focus, input:focus, input:focus, textarea, textarea:focus {
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
   outline: 0;
 }
 
@@ -1739,10 +1744,12 @@ label {
   font-size: 17px;
 }
 
-.about-area .habout__content h3, .about-area .habout__content ul {
+.about-area .habout__content h3,
+.about-area .habout__content ul {
   margin-bottom: 25px;
 }
-.about-area .habout__content h3 li, .about-area .habout__content ul li {
+.about-area .habout__content h3 li,
+.about-area .habout__content ul li {
   line-height: 2;
 }
 .about-area .habout__img {
@@ -1772,10 +1779,12 @@ label {
   position: relative;
 }
 
-.feature-1, .feature-2 {
+.feature-1,
+.feature-2 {
   position: relative;
 }
-.feature-1::after, .feature-2::after {
+.feature-1::after,
+.feature-2::after {
   position: absolute;
   content: "";
   background: url(../img/feature-1.jpg);
@@ -1786,7 +1795,8 @@ label {
   top: 0;
   right: 0;
 }
-.feature-1::before, .feature-2::before {
+.feature-1::before,
+.feature-2::before {
   position: absolute;
   content: "";
   background: #333;
@@ -1816,6 +1826,31 @@ label {
   font-size: 22px;
   margin-bottom: 15px;
   text-transform: capitalize;
+}
+.services-area .services__single {
+  -webkit-box-shadow: 1px -1px 11px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 11px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px -1px 11px -7px rgba(0, 0, 0, 0.75);
+  padding: 40px;
+  transition: 0.3s;
+}
+.services-area .services__single:hover {
+  background-color: #e16038;
+}
+.services-area .services__single:hover i,
+.services-area .services__single:hover h3,
+.services-area .services__single:hover p {
+  color: #ffffff;
+  cursor: pointer;
+}
+.services-area .services__single i {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.services-area .services__single h3 {
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

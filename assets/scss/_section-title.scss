@@ -1,19 +1,21 @@
 // SECTION TITLE
-.section-title{
-    & span{
+.section-title {
+    & span {
         font-size: 18px;
         font-weight: 300;
         font-style: italic;
         margin-bottom: 5px;
         display: block;
     }
-    & h2{
+
+    & h2 {
         font-size: 35px;
         text-transform: uppercase;
         margin-bottom: 20px;
         padding: 10px;
         position: relative;
-        &:before{
+
+        &:before {
             position: absolute;
             content: '';
             width: 59px;
