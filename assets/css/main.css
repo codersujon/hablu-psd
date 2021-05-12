@@ -1977,4 +1977,39 @@ label {
   color: #ffffff;
 }
 
+.teamMembers__item {
+  position: relative;
+  overflow: hidden;
+}
+.teamMembers__item:hover {
+  cursor: pointer;
+}
+.teamMembers__item:hover .teamMembers__item-overlay {
+  bottom: 0;
+}
+.teamMembers__item img {
+  width: 100%;
+}
+.teamMembers__item-overlay {
+  position: absolute;
+  content: "";
+  background: #333;
+  width: 100%;
+  left: 0;
+  bottom: -120px;
+  transition: 0.3s;
+}
+.teamMembers__item-overlay h3 {
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 25px;
+}
+.teamMembers__item-overlay h3 span {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
 /*# sourceMappingURL=main.css.map */
