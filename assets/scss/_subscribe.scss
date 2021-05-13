@@ -1,0 +1,25 @@
+.subscribe-area {
+    & form {
+        margin-top: 30px;
+        position: relative;
+
+        & input {
+            width: 100%;
+            padding: 15px;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        input[type="submit"] {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: auto;
+            text-transform: capitalize;
+            background: $theme-color;
+            color: $white;
+            font-weight: 600;
+            font-size: 16px;
+        }
+    }
+}
