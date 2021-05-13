@@ -7,7 +7,7 @@ $(function ($) {
     });
 
     //Owl-Carousel (For Single Slider)
-    $('.owl-carousel').owlCarousel({
+    $('.slider-area').owlCarousel({
         loop: true,
         margin: 10,
         autoplay: true,
@@ -48,5 +48,27 @@ $(function ($) {
         type: 'iframe'
     });
     
+    //Owl-Carousel (For Testimonials Area)
+    $('.testimonials').owlCarousel({
+        loop: true,
+        margin: 30,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 1000,
+        dots: true,
+        loop: true,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 2
+            }
+        }
+    })
 
 })(jQuery)

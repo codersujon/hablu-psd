@@ -1,20 +1,3 @@
-.process-area {
-    color: $white;
-    position: relative;
-    background-size: cover;
-    height: 100%;
-
-    &::before {
-        position: absolute;
-        content: '';
-        top: 0;
-        background: #333;
-        width: 100%;
-        height: 100%;
-        opacity: .8;
-    }
-}
-
 .single-process {
 
     & h3,

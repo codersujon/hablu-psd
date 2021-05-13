@@ -1,0 +1,68 @@
+.testimonial-area {
+    & .testimonials {
+
+        &__author {
+
+            & i {
+                font-size: 40px;
+                margin-bottom: 15px;
+                color: $white;
+            }
+
+            & p {
+                color: $white;
+            }
+
+            &-info {
+                position: relative;
+
+                & img {
+                    max-width: 80px;
+                    border-radius: 50%;
+                    border: 1px dashed $white;
+                    padding: 5px;
+                    margin: 20px 0;
+                    left: 0;
+                    top: 0;
+                }
+
+                & h4 {
+                    position: absolute;
+                    content: "";
+                    font-size: 25px;
+                    margin-left: 100px;
+                    color: $white;
+                    margin-top: -95px;
+                    font-weight: 500;
+
+                    & span {
+                        display: block;
+                        margin-top: 5px;
+                        font-weight: 300;
+                        font-size: 16px;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+
+        // owl-dots apply
+
+        .owl-dots {
+            text-align: center;
+
+            & button {
+                background-color: $theme-color !important;
+                width: 15px;
+                height: 15px;
+                margin: 0 5px;
+                border-radius: 50%;
+
+                &.active {
+                    background-color: $white !important;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,54 @@
+.blog-area {
+    & .blogs {
+        &__item {
+            box-shadow: rgb(0 0 0 / 75%) 1px -1px 11px -7px;
+            margin-bottom: 30px;
+
+            &-img {
+                & img {
+                    width: 100%;
+                }
+            }
+
+            &-meta {
+                background-color: $white;
+                text-align: center;
+                box-shadow: 0 15px 40px $grey;
+                padding: 10px;
+                margin: 0 40px;
+                margin-top: -23px;
+                z-index: 1;
+                position: relative;
+                border-radius: 4px;
+
+                a {
+                    color: $body-text-color;
+                    margin: 0 10px;
+                    font-size: 16px;
+                }
+            }
+
+            &-content {
+                padding: 40px 30px;
+
+                & h5 {
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    border-bottom: 1px dashed $hr-border-color;
+                    padding-bottom: 10px;
+                }
+
+                &-btn {
+                    & a {
+                        color: $body-text-color;
+                        text-transform: capitalize;
+
+                        &:hover {
+                            color: $theme-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
