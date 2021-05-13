@@ -1655,6 +1655,7 @@ label {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
+  font-weight: 700;
 }
 .header-transparent .header-top .navbar .navbar-nav li {
   margin-left: 30px;
@@ -1696,6 +1697,16 @@ label {
   background-color: #e16038;
   border-color: #e16038;
   color: #ffffff;
+}
+
+.header-top {
+  transition: 0.3s;
+}
+
+.header-top.bg-dark.sticky {
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
 }
 
 .slider-area .owl-dots {
