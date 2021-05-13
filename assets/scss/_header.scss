@@ -1,3 +1,4 @@
+// Header Start
 .header-transparent {
     position: absolute;
     top: 0;
@@ -33,11 +34,16 @@
                         transition: .3s ease-out;
                     }
                 }
+
+                & li.current {
+                    & a {
+                        color: $theme-color;
+                    }
+                }
             }
         }
     }
 }
-
 
 //btn
 .h-btn {
@@ -78,6 +84,7 @@
 .header-top {
     transition: .3s;
 }
+
 .header-top.bg-dark.sticky {
     position: fixed;
     width: 100%;

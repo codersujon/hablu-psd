@@ -1,3 +1,4 @@
+//Process Start
 .single-process {
 
     & h3,
@@ -19,7 +20,7 @@
             top: 0;
             right: 0;
             padding: 10px 20px;
-            background-color: #cb5920;
+            background-color: $theme-color;
             border-radius: 5px;
         }
     }

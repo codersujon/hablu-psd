@@ -1,3 +1,4 @@
+//Team Start
 .teamMembers {
     &__item {
         position: relative;
@@ -18,7 +19,7 @@
         &-overlay {
             position: absolute;
             content: "";
-            background: #333;
+            background: $body-text-color;
             width: 100%;
             left: 0;
             bottom: -120px;

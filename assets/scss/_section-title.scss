@@ -1,5 +1,6 @@
 // SECTION TITLE
-.section-title, .section-title-white {
+.section-title,
+.section-title-white {
     & span {
         font-size: 18px;
         font-weight: 300;
@@ -27,10 +28,12 @@
         }
     }
 }
+
 .section-title-white {
+
     & span,
     h2,
     p {
-       color: $white;
+        color: $white;
     }
 }

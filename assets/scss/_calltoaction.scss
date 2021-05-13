@@ -1,9 +1,11 @@
+//Call To Action Start
 .video-area {
     color: $white;
-    & .video-content{
-        & i{
+
+    & .video-content {
+        & i {
             font-size: 36px;
-            border: 3px solid #fff;
+            border: 3px solid $white;
             width: 80px;
             height: 80px;
             border-radius: 50%;
@@ -11,19 +13,22 @@
             line-height: 80px;
             cursor: pointer;
             transition: .3s;
-            &:hover{
+
+            &:hover {
                 color: $theme-color;
                 border-color: $theme-color;
             }
         }
-        & h2{
+
+        & h2 {
             font-size: 35px;
-            color: #fff;
+            color: $white;
             text-transform: uppercase;
             margin: 30px 0;
         }
-        & p{
-            color: #fff;
+
+        & p {
+            color: $white;
         }
     }
 }

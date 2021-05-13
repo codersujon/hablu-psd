@@ -1,3 +1,5 @@
+//Mixin
+
 @mixin transition($time) {
 	-webkit-transition: all $time ease-out 0s;
 	-moz-transition: all $time ease-out 0s;

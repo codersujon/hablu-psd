@@ -1,9 +1,10 @@
+//Prices Start
 .prices-area {
     & .prices {
         &__item {
             text-align: center;
             padding: 40px 30px;
-            box-shadow: 0 15px 40px #eaeaea;
+            box-shadow: 0 15px 40px $grey;
 
             &.featured {
                 & h3 {
@@ -20,7 +21,7 @@
 
             & h3 {
                 font-size: 40px;
-                background: #fafafa;
+                background: $hr-border-color;
                 padding: 10px;
                 margin: 20px 0;
 

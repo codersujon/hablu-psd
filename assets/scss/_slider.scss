@@ -1,3 +1,4 @@
+//Slider Start
 .slider-area {
 
     // owl-carousel dots for slider-area
@@ -30,7 +31,7 @@
     &:before {
         content: '';
         position: absolute;
-        background: #333;
+        background: $body-text-color;
         height: 1000px;
         width: 100%;
         opacity: .8;
@@ -56,7 +57,7 @@
         }
 
         & p {
-            color: #ffffff;
+            color: $white;
             margin-bottom: 40px;
             font-size: 17px;
         }

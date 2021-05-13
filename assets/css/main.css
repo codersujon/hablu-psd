@@ -165,7 +165,7 @@ p {
 }
 
 hr {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #fafafa;
   border-top: 0 none;
   margin: 30px 0;
   padding: 0;
@@ -1611,21 +1611,24 @@ label {
   opacity: 0.9;
 }
 
-.section-title span, .section-title-white span {
+.section-title span,
+.section-title-white span {
   font-size: 18px;
   font-weight: 300;
   font-style: italic;
   margin-bottom: 5px;
   display: block;
 }
-.section-title h2, .section-title-white h2 {
+.section-title h2,
+.section-title-white h2 {
   font-size: 35px;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding: 10px;
   position: relative;
 }
-.section-title h2:before, .section-title-white h2:before {
+.section-title h2:before,
+.section-title-white h2:before {
   position: absolute;
   content: "";
   width: 59px;
@@ -1668,6 +1671,9 @@ label {
   color: #ffffff;
   text-transform: uppercase;
   transition: 0.3s ease-out;
+}
+.header-transparent .header-top .navbar .navbar-nav li.current a {
+  color: #e16038;
 }
 
 .h-btn {
@@ -1790,7 +1796,7 @@ label {
 }
 
 .features-area {
-  background-color: #f9f9f9;
+  background-color: #eaeaea;
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
@@ -1844,6 +1850,7 @@ label {
   margin-bottom: 15px;
   text-transform: capitalize;
 }
+
 .services-area .services__single {
   -webkit-box-shadow: 1px -1px 11px -7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px -1px 11px -7px rgba(0, 0, 0, 0.75);
@@ -1888,7 +1895,7 @@ label {
   top: 0;
   right: 0;
   padding: 10px 20px;
-  background-color: #cb5920;
+  background-color: #e16038;
   border-radius: 5px;
 }
 .single-process p {
@@ -1924,7 +1931,7 @@ label {
   top: 0;
 }
 .projects__item-overlay-content {
-  color: #fff;
+  color: #ffffff;
   position: absolute;
   z-index: 2;
   left: 50%;
@@ -1938,7 +1945,7 @@ label {
 .projects__item-overlay-content h3 {
   font-size: 25px;
   text-transform: capitalize;
-  color: #fff;
+  color: #ffffff;
   margin-top: 10px;
 }
 .projects__item-overlay-content h3 span {
@@ -2009,7 +2016,7 @@ label {
 }
 .video-area .video-content i {
   font-size: 36px;
-  border: 3px solid #fff;
+  border: 3px solid #ffffff;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -2024,12 +2031,12 @@ label {
 }
 .video-area .video-content h2 {
   font-size: 35px;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   margin: 30px 0;
 }
 .video-area .video-content p {
-  color: #fff;
+  color: #ffffff;
 }
 
 .prices-area .prices__item {
@@ -2147,7 +2154,7 @@ label {
 .blog-area .blogs__item-content h5 {
   font-size: 20px;
   text-transform: capitalize;
-  border-bottom: 1px dashed #eee;
+  border-bottom: 1px dashed #fafafa;
   padding-bottom: 10px;
 }
 .blog-area .blogs__item-content-btn a {
