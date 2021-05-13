@@ -38,10 +38,15 @@ $(function ($) {
     });
 
     //CounterUp
-   $('.counter').counterUp({
-    delay: 10,
-    time: 2000
-   });
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
 
+    // Video PopUP in CALL TO ACTION
+    $('.popup-video').magnificPopup({
+        type: 'iframe'
+    });
+    
 
 })(jQuery)
