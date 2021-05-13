@@ -95,8 +95,8 @@ $(function ($) {
     })
 
     //ScrollTop (For Menu Fixed)
-    $(window).on('scroll',function (){
-        if ($(this).scrollTop() > 1 ) {
+    $(window).on('scroll', function () {
+        if ($(this).scrollTop() > 1) {
             $('.header-top').addClass('sticky');
         } else {
             $('.header-top').removeClass('sticky');
@@ -112,18 +112,15 @@ $(function ($) {
         scrollThreshold: 0.5,
         filter: '',
         easing: 'swing',
-        begin: function() {
-           
+        begin: function () {
+
         },
-        end: function() {
-           
+        end: function () {
+
         },
-        scrollChange: function($currentListItem) {
-           
+        scrollChange: function ($currentListItem) {
+
         }
     });
 
 })(jQuery)
-
-
-
