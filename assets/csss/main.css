@@ -165,7 +165,7 @@ p {
 }
 
 hr {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #fafafa;
   border-top: 0 none;
   margin: 30px 0;
   padding: 0;
@@ -1611,21 +1611,24 @@ label {
   opacity: 0.9;
 }
 
-.section-title span, .section-title-white span {
+.section-title span,
+.section-title-white span {
   font-size: 18px;
   font-weight: 300;
   font-style: italic;
   margin-bottom: 5px;
   display: block;
 }
-.section-title h2, .section-title-white h2 {
+.section-title h2,
+.section-title-white h2 {
   font-size: 35px;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding: 10px;
   position: relative;
 }
-.section-title h2:before, .section-title-white h2:before {
+.section-title h2:before,
+.section-title-white h2:before {
   position: absolute;
   content: "";
   width: 59px;
@@ -1655,6 +1658,7 @@ label {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
+  font-weight: 700;
 }
 .header-transparent .header-top .navbar .navbar-nav li {
   margin-left: 30px;
@@ -1667,6 +1671,9 @@ label {
   color: #ffffff;
   text-transform: uppercase;
   transition: 0.3s ease-out;
+}
+.header-transparent .header-top .navbar .navbar-nav li.current a {
+  color: #e16038;
 }
 
 .h-btn {
@@ -1696,6 +1703,16 @@ label {
   background-color: #e16038;
   border-color: #e16038;
   color: #ffffff;
+}
+
+.header-top {
+  transition: 0.3s;
+}
+
+.header-top.bg-dark.sticky {
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
 }
 
 .slider-area .owl-dots {
@@ -1750,6 +1767,7 @@ label {
   font-size: 17px;
 }
 
+/*-- About Start --*/
 .about-area .habout__content h3,
 .about-area .habout__content ul {
   margin-bottom: 25px;
@@ -1779,7 +1797,7 @@ label {
 }
 
 .features-area {
-  background-color: #f9f9f9;
+  background-color: #eaeaea;
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
@@ -1833,6 +1851,7 @@ label {
   margin-bottom: 15px;
   text-transform: capitalize;
 }
+
 .services-area .services__single {
   -webkit-box-shadow: 1px -1px 11px -7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px -1px 11px -7px rgba(0, 0, 0, 0.75);
@@ -1877,7 +1896,7 @@ label {
   top: 0;
   right: 0;
   padding: 10px 20px;
-  background-color: #cb5920;
+  background-color: #e16038;
   border-radius: 5px;
 }
 .single-process p {
@@ -1913,7 +1932,7 @@ label {
   top: 0;
 }
 .projects__item-overlay-content {
-  color: #fff;
+  color: #ffffff;
   position: absolute;
   z-index: 2;
   left: 50%;
@@ -1927,7 +1946,7 @@ label {
 .projects__item-overlay-content h3 {
   font-size: 25px;
   text-transform: capitalize;
-  color: #fff;
+  color: #ffffff;
   margin-top: 10px;
 }
 .projects__item-overlay-content h3 span {
@@ -1998,7 +2017,7 @@ label {
 }
 .video-area .video-content i {
   font-size: 36px;
-  border: 3px solid #fff;
+  border: 3px solid #ffffff;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -2013,12 +2032,12 @@ label {
 }
 .video-area .video-content h2 {
   font-size: 35px;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   margin: 30px 0;
 }
 .video-area .video-content p {
-  color: #fff;
+  color: #ffffff;
 }
 
 .prices-area .prices__item {
@@ -2136,7 +2155,7 @@ label {
 .blog-area .blogs__item-content h5 {
   font-size: 20px;
   text-transform: capitalize;
-  border-bottom: 1px dashed #eee;
+  border-bottom: 1px dashed #fafafa;
   padding-bottom: 10px;
 }
 .blog-area .blogs__item-content-btn a {
@@ -2148,26 +2167,121 @@ label {
 }
 
 .subscribe-area form {
+  margin-top: 30px;
   position: relative;
 }
-
 .subscribe-area form input {
   width: 100%;
-  padding: 12px 10px;
+  padding: 15px;
   border: 0;
   border-radius: 10px;
 }
-
 .subscribe-area form input[type=submit] {
   position: absolute;
   right: 0;
   top: 0;
-  width: 20%;
+  width: auto;
   text-transform: capitalize;
-  background: red;
-  color: #fff;
+  background: #e16038;
+  color: #ffffff;
   font-weight: 600;
   font-size: 16px;
+}
+
+.contact-area .contacts__social {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #eaeaea;
+  padding-left: 80px;
+}
+.contact-area .contacts__social i {
+  background-color: #e16038;
+  width: 60px;
+  height: 60px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 60px;
+  font-size: 26px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.contact-area .contacts__social h4 {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.contact-area .contacts__social h4 span {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 5px;
+}
+.contact-area .contacts__social:last-child {
+  border: none;
+}
+.contact-area .contacts__form input {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  padding: 5px 10px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.contact-area .contacts__form input[type=submit] {
+  background: #e16038;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+.contact-area .contacts__form textarea {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  padding: 5px 10px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.client-area {
+  background: #fafafa;
+  padding-top: 35px;
+  background: #eaeaea;
+}
+.client-area .client-branding img {
+  max-width: 180px;
+}
+
+.footer-area {
+  text-align: center;
+}
+.footer-area .social-links {
+  margin-bottom: 25px;
+}
+.footer-area .social-links a {
+  color: #ffffff;
+  font-size: 20px;
+  border: 1px dashed #ffffff;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.3s ease-in-out;
+}
+.footer-area .social-links a:hover {
+  background: #e16038;
+  color: #ffffff;
+  transform: rotateX(180deg);
+  border-color: #e16038;
+}
+.footer-area p {
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
