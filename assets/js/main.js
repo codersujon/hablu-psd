@@ -71,4 +71,27 @@ $(function ($) {
         }
     })
 
+    //Owl-Carousel (For Client Branding Logo area)
+    $('.client-branding').owlCarousel({
+        loop: true,
+        margin: 30,
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 1000,
+        dots: true,
+        loop: true,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    })
+
 })(jQuery)

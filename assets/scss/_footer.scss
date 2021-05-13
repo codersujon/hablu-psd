@@ -1,0 +1,35 @@
+//FOOTER START
+.footer-area {
+    text-align: center;
+
+    & .social-links {
+        margin-bottom: 25px;
+
+        & a {
+            color: $white;
+            font-size: 20px;
+            border: 1px dashed $white;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            display: inline-block;
+            margin: 0 10px;
+            transition: .3s ease-in-out;
+
+            &:hover {
+                background: $theme-color;
+                color: $white;
+                transform: rotateX(180deg);
+                border-color: $theme-color;
+            }
+        }
+    }
+
+    p {
+        color: $white;
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-bottom: 0;
+    }
+}

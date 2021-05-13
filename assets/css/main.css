@@ -2225,4 +2225,44 @@ label {
   margin-bottom: 10px;
 }
 
+.client-area {
+  background: #fafafa;
+  padding-top: 35px;
+  background: #eaeaea;
+}
+.client-area .client-branding img {
+  max-width: 180px;
+}
+
+.footer-area {
+  text-align: center;
+}
+.footer-area .social-links {
+  margin-bottom: 25px;
+}
+.footer-area .social-links a {
+  color: #ffffff;
+  font-size: 20px;
+  border: 1px dashed #ffffff;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.3s ease-in-out;
+}
+.footer-area .social-links a:hover {
+  background: #e16038;
+  color: #ffffff;
+  transform: rotateX(180deg);
+  border-color: #e16038;
+}
+.footer-area p {
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=main.css.map */

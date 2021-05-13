@@ -1,0 +1,11 @@
+.client-area {
+    background: #fafafa;
+    padding-top: 35px;
+    background: $grey;
+
+    & .client-branding {
+        & img {
+            max-width: 180px;
+        }
+    }
+}
