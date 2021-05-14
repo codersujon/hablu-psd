@@ -1,7 +1,16 @@
-# Hablu- PSD Template
-site is ready to be Lived at https://positiveworldbd.github.io/hablu-psd/
+## Hablu- One Page Website
 
-⇒ Features
+**[Live Demo](https://positiveworldbd.github.io/hablu-psd/)**
+
+**# **Language and Tools Usage****
+
+ - HTML5
+ - CSS3
+ - Bootstrap 5
+ - SASS
+ - Simple JavaScript
+ - jQuery
+## Features
 1. Creative Sections
 2. CSS3 Hover Effects
 3. Proper Coding
@@ -11,6 +20,3 @@ site is ready to be Lived at https://positiveworldbd.github.io/hablu-psd/
 7. Font Awesome Icons
 8. SASS
 9. And More
-
-# Some of My Changes
-I love to Play
