@@ -28,9 +28,11 @@
     min-height: 1000px;
     background-size: cover;
     background-position: center;
+
     @media #{$lg} {
         min-height: 900px;
     }
+
     &:before {
         content: '';
         position: absolute;
@@ -42,6 +44,14 @@
 }
 
 .hslide {
+    &__btn {
+        & .h-btn {
+            @media #{$xs} {
+                margin-right: 5px;
+            }
+        }
+    }
+
     &__text {
         & span {
             font-size: 20px;
@@ -63,6 +73,7 @@
             color: $white;
             margin-bottom: 40px;
             font-size: 17px;
+
             @media #{$lg} {
                 padding-left: 50px;
                 padding-right: 50px;

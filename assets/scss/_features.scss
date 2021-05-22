@@ -20,6 +20,10 @@
         height: 100%;
         top: 0;
         right: 0;
+
+        @media #{$xs} {
+            display: none;
+        }
     }
 
     &::before {
@@ -32,6 +36,10 @@
         right: 0;
         z-index: 2;
         opacity: .8;
+
+        @media #{$xs} {
+            display: none;
+        }
     }
 }
 
@@ -49,6 +57,7 @@
 }
 
 .single-feature {
+
     & i {
         font-size: 25px;
         margin-bottom: 20px;

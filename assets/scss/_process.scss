@@ -27,5 +27,12 @@
 
     p {
         text-align: center;
+
+        @media #{$md},
+        #{$xs} {
+            & br {
+                display: none;
+            }
+        }
     }
 }

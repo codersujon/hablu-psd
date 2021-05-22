@@ -19,7 +19,7 @@
 
 -----------------------------------------------------------------------------------*/
 /*
-    @media laptop{
+    @media only screen and (min-width: 1200px) and (max-width: 1600px){
 
     }
 */
@@ -1757,6 +1757,11 @@ label {
   opacity: 0.8;
 }
 
+@media (max-width: 767px) {
+  .hslide__btn .h-btn {
+    margin-right: 5px;
+  }
+}
 .hslide__text span {
   font-size: 20px;
   display: block;
@@ -1835,6 +1840,12 @@ label {
   top: 0;
   right: 0;
 }
+@media (max-width: 767px) {
+  .feature-1::after,
+.feature-2::after {
+    display: none;
+  }
+}
 .feature-1::before,
 .feature-2::before {
   position: absolute;
@@ -1846,6 +1857,12 @@ label {
   right: 0;
   z-index: 2;
   opacity: 0.8;
+}
+@media (max-width: 767px) {
+  .feature-1::before,
+.feature-2::before {
+    display: none;
+  }
 }
 
 .feature-2::after {
@@ -1917,6 +1934,11 @@ label {
 }
 .single-process p {
   text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .single-process p br {
+    display: none;
+  }
 }
 
 .projects__item {
@@ -2238,6 +2260,11 @@ label {
   font-weight: 400;
   font-style: italic;
   margin-top: 5px;
+}
+@media (max-width: 767px) {
+  .contact-area .contacts__social h4 span {
+    font-size: 16px;
+  }
 }
 .contact-area .contacts__social:last-child {
   border: none;
