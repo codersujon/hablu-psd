@@ -16,6 +16,7 @@
             margin: 10px 0;
             border-radius: 50%;
 
+
             &.active {
                 background: $white !important;
             }
@@ -27,7 +28,9 @@
     min-height: 1000px;
     background-size: cover;
     background-position: center;
-
+    @media #{$lg} {
+        min-height: 900px;
+    }
     &:before {
         content: '';
         position: absolute;
@@ -60,6 +63,10 @@
             color: $white;
             margin-bottom: 40px;
             font-size: 17px;
+            @media #{$lg} {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
         }
     }
 }

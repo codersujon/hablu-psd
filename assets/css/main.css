@@ -18,6 +18,11 @@
 	04. Footer
 
 -----------------------------------------------------------------------------------*/
+/*
+    @media laptop{
+
+    }
+*/
 /*----------------------------------------*/
 /*  01. Theme default CSS
 /*----------------------------------------*/
@@ -1738,6 +1743,11 @@ label {
   background-size: cover;
   background-position: center;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .single-slide {
+    min-height: 900px;
+  }
+}
 .single-slide:before {
   content: "";
   position: absolute;
@@ -1766,7 +1776,14 @@ label {
   margin-bottom: 40px;
   font-size: 17px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .hslide__text p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 
+/*-- About Start --*/
 .about-area .habout__content h3,
 .about-area .habout__content ul {
   margin-bottom: 25px;
@@ -2147,6 +2164,11 @@ label {
   color: #333;
   margin: 0 10px;
   font-size: 16px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .blog-area .blogs__item-meta a {
+    display: block;
+  }
 }
 .blog-area .blogs__item-content {
   padding: 40px 30px;
